@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\projectdatabasemanager\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\projectdatabasemanager\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HB\\Documents\\test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\modpack-installer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\modpack-installer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\definitions\\localdefinitions\\localprojectversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\definitions\\localdefinitions\\localprojectversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\configmanager\\projectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\configmanager\\projectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\definitions\\onlinedefinitions\\projectversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\definitions\\onlinedefinitions\\projectversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\projectdatabasemanager\\projectverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\projectdatabasemanager\\projectverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\userinteractive\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\userinteractive\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|d:\\projects\\visual studio community 2022\\modpack-installer\\modpack-installer\\projectdatabasemanager\\projectrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF118B7-406A-4039-8C21-6753DA8C94CD}|Modpack-Installer\\Modpack-Installer.csproj|solutionrelative:modpack-installer\\projectdatabasemanager\\projectrequester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Program.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\Program.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Program.cs",
+              "RelativeToolTip": "Modpack-Installer\\Program.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAAB8BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T13:01:41.915Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modpack-Installer",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Modpack-Installer.csproj",
+              "RelativeDocumentMoniker": "Modpack-Installer\\Modpack-Installer.csproj",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Modpack-Installer.csproj",
+              "RelativeToolTip": "Modpack-Installer\\Modpack-Installer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-26T21:28:27.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalProjectVersions.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Definitions\\LocalDefinitions\\LocalProjectVersions.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\Definitions\\LocalDefinitions\\LocalProjectVersions.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Definitions\\LocalDefinitions\\LocalProjectVersions.cs",
+              "RelativeToolTip": "Modpack-Installer\\Definitions\\LocalDefinitions\\LocalProjectVersions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA0wBwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:43:11.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectDatabase.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ConfigManager\\ProjectDatabase.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\ConfigManager\\ProjectDatabase.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ConfigManager\\ProjectDatabase.cs",
+              "RelativeToolTip": "Modpack-Installer\\ConfigManager\\ProjectDatabase.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAGUAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:06:58.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectVersions.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Definitions\\OnlineDefinitions\\ProjectVersions.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\Definitions\\OnlineDefinitions\\ProjectVersions.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\Definitions\\OnlineDefinitions\\ProjectVersions.cs",
+              "RelativeToolTip": "Modpack-Installer\\Definitions\\OnlineDefinitions\\ProjectVersions.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAzwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T17:41:54.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectVerifier.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectVerifier.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\ProjectDatabaseManager\\ProjectVerifier.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectVerifier.cs",
+              "RelativeToolTip": "Modpack-Installer\\ProjectDatabaseManager\\ProjectVerifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T16:38:53.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\UserInteractive\\Functions.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\UserInteractive\\Functions.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\UserInteractive\\Functions.cs",
+              "RelativeToolTip": "Modpack-Installer\\UserInteractive\\Functions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vx4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:12:31.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectInstaller.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\ProjectDatabaseManager\\ProjectInstaller.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectInstaller.cs",
+              "RelativeToolTip": "Modpack-Installer\\ProjectDatabaseManager\\ProjectInstaller.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwBMAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T15:10:47.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectRequester.cs",
+              "DocumentMoniker": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectRequester.cs",
+              "RelativeDocumentMoniker": "Modpack-Installer\\ProjectDatabaseManager\\ProjectRequester.cs",
+              "ToolTip": "D:\\Projects\\Visual Studio Community 2022\\Modpack-Installer\\Modpack-Installer\\ProjectDatabaseManager\\ProjectRequester.cs",
+              "RelativeToolTip": "Modpack-Installer\\ProjectDatabaseManager\\ProjectRequester.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T21:00:34.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.json",
+              "DocumentMoniker": "C:\\Users\\HB\\Documents\\test.json",
+              "ToolTip": "C:\\Users\\HB\\Documents\\test.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T11:12:45.064Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
