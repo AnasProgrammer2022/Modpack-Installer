@@ -4,7 +4,9 @@ This is a lightweight, terminal-like tool that allows you to download Minecraft 
 So you will just play without the headache of updating mods everytime you open the game.
 
 ## How to use:
-**NOTE:** To use the program, the program has to wipe the config, resourcepacks and mods folders so it can save data for your new installed mods.
+**NOTE:** To use the program, the program has to wipe the config, resourcepacks and mods folders so the new installed mods will be identified by the prgoram.
+
+**ANOTHER NOTE**: Modrinth is only supported, and I have no intentions in adding CurseForge support.
 
 Because the program is built on terminal (no UI), you navigate it with commands. But don't worry, the program is intuitive, just follow what the tool is asking for.
 
