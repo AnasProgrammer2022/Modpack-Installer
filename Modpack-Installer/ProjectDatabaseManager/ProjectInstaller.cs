@@ -49,7 +49,7 @@ namespace Modpack_Installer.InstallerAndVerifier
                     IsSuccessful = false,
                     LogLineState = LogState.Info
                 });
-                Console.WriteLine($"{indexer}{projectData.title} ({projectVersion.name}) is already installed.");
+                Console.WriteLine($"{indexer}{projectData.title} ({projectVersion.name}) is already installed. {dependencyProgresser}");
                 return (null, null, logs);
             }
             else installedMods.AddProject(DatabaseLinker.ConvertOnlineToLocalProjectVersion(projectVersion));
@@ -73,7 +73,7 @@ namespace Modpack_Installer.InstallerAndVerifier
                 fileDataResults.AddRange(currentFileDataResults);
                 versionDataResults.AddRange(currentVersionDataResults);
             }
-            Console.WriteLine($"{indexer}{projectData.title} downloaded! ({dependencyProgresser})");
+            Console.WriteLine($"{indexer}{projectData.title} downloaded! {dependencyProgresser}");
 
             return (fileDataResults, versionDataResults, logs);
         }
@@ -181,7 +181,7 @@ namespace Modpack_Installer.InstallerAndVerifier
                         if (logline.IsSuccessful == true)
                         {
                             (List<filedata> currentFileDataResults, List<VersionData> currentVersionDataResults, List<LogLine> logLines) =
-                                await InstallCompleteProject(currentProjectVerData, defaultProfile, dirDest, functionCallerNester + "InstallDependencies.", $"{counter}/{dependencies.Count}");
+                                await InstallCompleteProject(currentProjectVerData, defaultProfile, dirDest, functionCallerNester + "InstallDependencies.", $"({counter}/{dependencies.Count})");
                             logs.AddRange(logLines);
                             if (currentFileDataResults != null && currentVersionDataResults != null)
                             {

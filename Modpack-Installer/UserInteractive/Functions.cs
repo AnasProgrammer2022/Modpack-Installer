@@ -142,7 +142,7 @@ namespace Modpack_Installer.UserInteractive
                 }
                 Console.WriteLine($"Current page: {page + 1}. Showing {searchResultsCount} result{(searchResultsCount > 1 ? "s" : string.Empty)}. " +
                     $"{searchResults.total_hits} result{(searchResultsCount > 1 ? "s" : string.Empty)} found.\n" +
-                    $"Type \"np\" to navigate to the next page{(page > 0 ? ", and \"pp\" to navigate to the previous page." : ".")}. Type \"ep\" to exit.\n" +
+                    $"Type \"np\" to navigate to the next page{(page > 0 ? ", and \"pp\" to navigate to the previous page." : ".")} Type \"ep\" to exit.\n" +
                     $"Type \"t:\" then the type of mod you want (mod, modpack or resourcepack) to change the mod type.\n" +
                     $"If your desired {projectType} is shown, type the corresponding number to it.");
 
