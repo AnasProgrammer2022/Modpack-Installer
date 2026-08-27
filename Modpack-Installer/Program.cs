@@ -8,6 +8,7 @@ using Modpack_Installer.UserInteractive;
 using System.Diagnostics;
 using System.Net.Http.Json;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Text;
 
 /*
@@ -22,6 +23,39 @@ using System.Text;
 
 namespace Modpack_Installer
 {
+    //This class is made by AI. I'm sorry but I'm just too lazy to do it myself
+    public static class ConsoleHelper
+    {
+        private const int STD_OUTPUT_HANDLE = -11;
+        private const uint ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004;
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetStdHandle(int nStdHandle);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool GetConsoleMode(IntPtr hConsoleHandle, out uint lpMode);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool SetConsoleMode(IntPtr hConsoleHandle, uint dwMode);
+
+        public static void EnableVirtualTerminal()
+        {
+            // Set console output encoding to UTF-8
+            Console.OutputEncoding = Encoding.UTF8;
+
+            // VT processing is a Windows-specific setting; Linux/macOS enable ANSI by default
+            if (OperatingSystem.IsWindows())
+            {
+                IntPtr handle = GetStdHandle(STD_OUTPUT_HANDLE);
+                if (handle != IntPtr.Zero && GetConsoleMode(handle, out uint mode))
+                {
+                    mode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+                    SetConsoleMode(handle, mode);
+                }
+            }
+        }
+    }
+
     internal class Program
     {
         //Paths
@@ -152,6 +186,8 @@ namespace Modpack_Installer
         static async Task Main(string[] args)
         {
             Console.Title = "Modpack Installer";
+
+            ConsoleHelper.EnableVirtualTerminal();
 
             try { minecraftVersions = await http.GetFromJsonAsync<List<MinecraftVersion>>("https://api.modrinth.com/v2/tag/game_version"); }
             catch (Exception e)
