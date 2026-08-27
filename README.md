@@ -6,7 +6,7 @@ So you will just play without the headache of updating mods everytime you open t
 A screenshot when searching for a mod:
 <img width="1104" height="639" alt="image" src="https://github.com/user-attachments/assets/674f94fd-a5db-48d5-8347-c166d6a20eec" />
 
-A screenshot when downloading a mod:
+A screenshot when downloading a modpack:
 <img width="1104" height="640" alt="image" src="https://github.com/user-attachments/assets/7658772b-0743-4551-8d88-3a0e602ee756" />
 
 
