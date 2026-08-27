@@ -3,6 +3,13 @@
 This is a lightweight, terminal-like tool that allows you to download Minecraft Java mods, modpacks and resourcepacks, and updates them.
 So you will just play without the headache of updating mods everytime you open the game.
 
+A screenshot when searching for a mod:
+<img width="1104" height="639" alt="image" src="https://github.com/user-attachments/assets/674f94fd-a5db-48d5-8347-c166d6a20eec" />
+
+A screenshot when downloading a mod:
+<img width="1104" height="640" alt="image" src="https://github.com/user-attachments/assets/7658772b-0743-4551-8d88-3a0e602ee756" />
+
+
 ## How to use:
 **NOTE:** To use the program, the program has to wipe the config, resourcepacks and mods folders so the new installed mods will be identified by the prgoram.
 
