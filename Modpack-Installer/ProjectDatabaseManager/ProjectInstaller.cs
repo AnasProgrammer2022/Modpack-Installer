@@ -200,12 +200,12 @@ namespace Modpack_Installer.InstallerAndVerifier
                     else if (dependency.version_id == null && (dependency.dependency_type.Equals("required") || dependency.dependency_type.Equals("embedded")))
                     {
                         (VersionData dependencyVersion, LogLine logLine) =
-                            await VersionGrabber.GrabSpecificVersionOnline(http, dependency.project_id, defaultProfile.mcVersion, defaultProfile.loader, null, functionCallerNester + "InstallDependencies.", $"{counter}/{dependencies.Count}");
+                            await VersionGrabber.GrabSpecificVersionOnline(http, dependency.project_id, defaultProfile.mcVersion, defaultProfile.loader, null, functionCallerNester + "InstallDependencies.");
                         logs.Add(logLine);
                         if (logLine.LogLineState == LogState.Info)
                         {
                             (List<filedata> currentFileDataResults, List<VersionData> currentVersionDataResults, List<LogLine> logLines) =
-                                await InstallCompleteProject(dependencyVersion, defaultProfile, dirDest, functionCallerNester + "InstallDependencies.");
+                                await InstallCompleteProject(dependencyVersion, defaultProfile, dirDest, functionCallerNester + "InstallDependencies.", $"{counter}/{dependencies.Count}");
                             if (currentFileDataResults != null && currentVersionDataResults != null)
                             {
                                 versionDataResults.AddRange(currentVersionDataResults);

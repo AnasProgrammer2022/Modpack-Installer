@@ -274,7 +274,7 @@ namespace Modpack_Installer.UserInteractive
             }
 
             (newInstalledFiles, List<VersionData> newInstalledProjects, currentLogLINES) =
-                await installer.InstallCompleteProject(projectToInstall, defaultProfile, tempDir.FullName, $"{functionCallerNester}Install.");
+                await installer.InstallCompleteProject(projectToInstall, defaultProfile, tempDir.FullName, $"{functionCallerNester}Install.", string.Empty);
             log.AddRange(currentLogLINES);
 
             if (newInstalledFiles == null)
