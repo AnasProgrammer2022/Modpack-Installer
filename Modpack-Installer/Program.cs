@@ -194,6 +194,7 @@ namespace Modpack_Installer
             {
                 Console.WriteLine($"There's no internet connection.\nConnect to the internet then try again.\nError: {e.Message}");
                 Console.ReadLine();
+                Environment.Exit(0);
             }
             Console.Clear();
             if (File.Exists(programConfigPath) && configFile.GetValue("ran_before") != null && configFile.GetValue("ran_before").Equals("true"))
@@ -264,7 +265,7 @@ namespace Modpack_Installer
                 string message = $"Currently using {(workingProfile.id == string.Empty ? "custom profile: " : "profile: ")}{workingProfile.name}\n" +
                     $"What you wanna do now?\n" +
                 $"install: install a new mod (mod, modpack, resourcepack)\n" +
-                $"update: updates all or specefic mods\n" +
+                $"update: update all downloaded mods\n" +
                 $"remove: remove a mod\n" +
                 $"options: manage the tool's options and settings\n" +
                 $"exit: to close the program, of course\n" +
