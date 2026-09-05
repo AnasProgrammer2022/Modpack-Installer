@@ -23,10 +23,11 @@ namespace Modpack_Installer.UserInteractive
         public static (Profile, LogLine) GetDefaultProfile(List<MinecraftVersion> minecraftVersions, string defaultMinecraftPath, string functionCallerNester)
         {
             Profile defaultProfile = new Profile();
-            string file = File.ReadAllText(Path.Combine(defaultMinecraftPath, "launcher_profiles.json"));
-            if (!File.Exists(file))
-                File.Create(file);
-            LauncherProfiles profiles = JsonSerializer.Deserialize<LauncherProfiles>(file);
+            string filePath = Path.Combine(defaultMinecraftPath, "launcher_profiles.json");
+            if (!File.Exists(filePath))
+                File.Create(filePath);
+            string fileContents = File.ReadAllText(filePath);
+            LauncherProfiles profiles = JsonSerializer.Deserialize<LauncherProfiles>(fileContents);
             Console.Clear();
             if (profiles == null) profiles = new LauncherProfiles();
             for (int i = 0; i < profiles.profiles.Count; i++)
